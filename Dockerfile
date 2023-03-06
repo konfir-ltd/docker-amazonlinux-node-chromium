@@ -10,3 +10,6 @@ RUN curl -sL https://rpm.nodesource.com/setup_16.x | bash -
 RUN yum install --enablerepo=nodesource -y nodejs
 RUN node --version
 RUN npm install --global yarn
+
+# Install rsync for build
+RUN yum -y install rsync
