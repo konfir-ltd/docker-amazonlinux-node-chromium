@@ -2,7 +2,7 @@ FROM amazonlinux as base
 
 # Install chrome
 # RUN yum install libXcomposite libXdamage libXrandr libgbm libxkbcommon pango alsa-lib atk at-spi2-atk cups-libs libdrm -y
-RUN yum install -y https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-122.0.6261.57-1.x86_64.rpm
+RUN yum install -y https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-123.0.6312.122-1.x86_64.rpm
 
 # Install nodejs & yarn
 RUN curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
